@@ -120,17 +120,17 @@ class App(Tk):
         self.btn5 = Button(text="Выкл.", background="#838996", foreground="white", font=14, command=self.konNW1)
         self.btn5.grid(row=0, column=5, ipadx=10, ipady=6, padx=10, pady=10)
 
-        self.label7 = Label(text="Конвеер бумаги", fg="#000", bg="#D7D7D7", font=14)
+        self.label7 = Label(text="Конвейер бумаги", fg="#000", bg="#D7D7D7", font=14)
         self.label7.grid(row=1, column=4, ipadx=10, ipady=6, padx=10, pady=10)
         self.btn6 = Button(text="Выкл.", background="#838996", foreground="white", font=14, command=self.konBUM1)
         self.btn6.grid(row=1, column=5, ipadx=10, ipady=6, padx=10, pady=10)
 
-        self.label8 = Label(text="Конвеер пластика", fg="#000", bg="#D7D7D7", font=14)
+        self.label8 = Label(text="Конвейер пластика", fg="#000", bg="#D7D7D7", font=14)
         self.label8.grid(row=2, column=4, ipadx=10, ipady=6, padx=10, pady=10)
         self.btn7 = Button(text="Выкл.", background="#838996", foreground="white", font=14, command=self.konPL1)
         self.btn7.grid(row=2, column=5, ipadx=10, ipady=6, padx=10, pady=10)
 
-        self.label9 = Label(text="Конвеер стекла", fg="#000", bg="#D7D7D7", font=14)
+        self.label9 = Label(text="Конвейер стекла", fg="#000", bg="#D7D7D7", font=14)
         self.label9.grid(row=3, column=4, ipadx=10, ipady=6, padx=10, pady=10)
         self.btn8 = Button(text="Выкл.", background="#838996", foreground="white", font=14, command=self.konST1)
         self.btn8.grid(row=3, column=5, ipadx=10, ipady=6, padx=10, pady=10)
